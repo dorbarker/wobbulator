@@ -9,5 +9,5 @@ setup(
     author_email=__author_email__,
     packages=find_packages(),
     install_requires=["biopython>=1.78"],
-    entry_points={"console_scripts": ["wobbulator=wobbulator.wobbulator.main"]},
+    entry_points={"console_scripts": ["wobbulator=wobbulator.wobbulator:main"]},
 )
